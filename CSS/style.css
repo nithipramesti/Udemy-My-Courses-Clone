@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+}
+
+body main {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+body main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body main form div {
+  margin-right: 10px;
+}
+
+body main form p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+body main form select {
+  color: #137791;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #137791;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 6px;
+  margin-right: 15px;
+}
+
+body main form .reset {
+  margin-right: 100px;
+  color: #137791;
+  text-decoration: none;
+}
+
+body main form .search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main form .search-container #search {
+  display: block;
+  height: 45px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+body main form .search-container #search-button {
+  display: block;
+  position: relative;
+  left: -5px;
+  height: 25px;
+  width: 25px;
+  background-color: gray;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

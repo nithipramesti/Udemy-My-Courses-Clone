@@ -4,19 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>Document</title>
 </head>
 <body>
     <main>
         <form action="">
             <div class="sort-container">
-                <label for="sort">Sort by</label>
+                <p>Sort by</p>
                 <select name="sort by" id="sort">
                     <option value="Recently Accessed">Recently Accessed</option>
                     <option value="Recently Enrolled">Recently Enrolled</option>
                     <option value="Title A to Z">Title: A-to-Z</option>
                     <option value="Title Z to A">Title: Z-to-A</option>
                 </select>
+            </div>
+            <div class="filter-container">
+                <p>Filter by</p>
+                <select name="Categories" id="categories">
+                    <option value="">Categories</option>
+                    <option value="Favorites">Favorites</option>
+                    <option value="All Categories">All Categories</option>
+                    <option value="Design">Design</option>
+                    <option value="Development">Development</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Teaching & Academics">Teaching & Academics</option>
+                    <option value="Archived">Archived</option>
+                </select>
+                <select name="Progress" id="progress">
+                    <option value="">Progress</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <select name="Instructor" id="instructor">
+                    <option value="">Instructor</option>
+                    <option value="Rebecca Swan">Rebecca Swan</option>
+                    <option value="John Due">John Due</option>
+                    <option value="Chris Manuel">Chris Manuel</option>
+                    <option value="Diana Brown">Diana Brown</option>
+                </select>
+            </div>
+            <a href="#" class="reset">Reset</a>
+            <div class="search-container">
+                <input type="search" id="search" placeholder="Search my courses">
+                <input type="image" src="/Images/search-icon.png" id="search-button">
             </div>
         </form>
     </main>
